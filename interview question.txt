@@ -1,0 +1,41 @@
+TABLEAU INTERVIEW QUESTION 
+
+1. WHAT IS DIFFERENCE BETWEEN TABLEAU EXTRACT AND LIVE CONNECTION
+ 
+Live and extracts are two ways you can make the data connection to the tableau.
+Live allows you real-time data while extracts are kind of batch 4
+Extract needs to be refreshed from time to time to get the updated data.
+
+So, in the case of live connection whatever changes will be done at the
+Datasource end that will be directly available to the tableau desktop.
+ 
+While in case of extracting any changes made in the data source
+won't reflect in the report immediately.
+ It will be reflected when the extract will be refreshed.
+ 
+2. what is the diff between joining and blending
+
+joining the data same source - joining 
+joing data frm 2 source blending
+
+3. can you create donut chart 
+
+
+4. what is calculated field in tableau?
+
+Calculated fields allow you to create new data from data 
+that already exists in your data source. When you create a calculated 
+field, you are essentially creating a new field (or column) 
+in your data source, the values or members of
+which are determined by a calculation that you control
+
+[profit]/[sales]
+iif([sales]!=0,[profit]/[sales],0)
+
+5.dimension vs measure
+
+
+6 what is dual axis
+
+6. filter vs context filter 
+
